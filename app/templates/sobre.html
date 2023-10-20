@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        a {
+            font-size: 16px;
+            display: block;
+            margin: 10px 0;
+            color: #333; /* Cor do texto */
+            text-decoration: none;
+        }
+
+        a#homePgBtn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px;
+            transition: background-color 0.3s;
+        }
+
+        a#homePgBtn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sobre o classificador</h1>
+        <a>Olá, esse classificador é utilizado para auxilio de um médico na hora de fazer a identificação e gerar um diagnóstico.</a>
+        <a>Este classificador identifica e classifica 4 tipos de doenças pulmonares e também faz a classificação de Imagens normais.</a>
+        <h2>Doenças Classificadas</h2>
+
+        <!-- Sobre as doenças que são classificadas -->
+        <a>Infiltração Pulmonar. Para saber mais sobre o que é. Clique em <a href="/infiltracao"> <strong>Infiltração</strong></a></a>
+
+        <a>Efusão Pulmonar. Para saber mais sobre o que é. Clique em <a href="/efusao"> <strong>Efusão</strong></a></a>
+
+        <a>Atelectasia. Para saber mais sobre o que é. Clique em <a href="/atelectasia"> <strong>Atelectasia</strong></a></a>
+
+        <a>Nodulo Pulmonar. Para saber mais sobre o que é. Clique em <a href="/nodulo"> <strong>Nodulo</strong></a></a>
+
+        <!-- Fim -->
+
+        <h1>Desenvolvido por:</h1>
+        <a><b>João Pedro Araujo Queiroz Barbosa</b></a>
+        <a>Este projeto foi criado e desenvolvido com intuito de ser um projeto de pesquisa.</a>
+        <h2>Importante</h2>
+        <a>O classificador não substitui o diagnóstico do médico, ele é apenas um auxílio.</a>
+        <a id="homePgBtn" class="btnLink" href="/">Ir para o classificador</a>
+    </div>
+</body>
+</html>

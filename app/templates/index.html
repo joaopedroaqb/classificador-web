@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Classificador de doenças Pulmonares</h1>
+        <p>
+            Este é um classificador de doenças pulmonares que classifica 4 tipos de doenças, sendo elas infiltração pulmonar, efusão pulmonar, atelectasia, nódulo e também faz a classificação de quando não há nenhuma doença.
+            Para saber mais, clique em <a href="/sobre"> <strong>Sobre</strong></a>.
+        </p>
+        <p> Por favor, envie um arquivo para ser classificado, clicando em "Escolher arquivo"</p>
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".jpg, .jpeg, .png">
+            <button type="submit" id="upload-button">Enviar Arquivo</button>
+        </form>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
