@@ -15,7 +15,7 @@ Olá! Este classificador foi desenvolvido para auxiliar médicos no processo de 
 - **Efusão Pulmonar**
 - **Atelectasia** 
 - **Nódulo Pulmonar**
-- 
+  
 ## Desenvolvedor
 
 Este projeto foi criado e desenvolvido por **João Pedro Araujo Queiroz Barbosa** com o intuito de ser uma ferramenta de pesquisa e auxílio no diagnóstico médico.
